@@ -1,0 +1,161 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Arial", sans-serif;
+}
+
+.container {
+	width: 1200px;
+	padding: 30px;
+	margin: 0 auto;
+}
+
+a {
+	color: #89d0fe;
+	text-decoration: none;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+p span {
+	font-weight: 700;
+}
+/* header */
+
+.header__wrapper {
+    display: flex;
+	margin-bottom: 30px;
+	font-size: 32px;
+}
+
+.Cheatography__wrapper {
+	margin-right: 30px;
+}
+
+.Cheatography {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+	width: 200px;
+	padding: 20px;
+
+	color: #fff;
+	background-color: #000;
+}
+
+.Cheatography::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 240px;
+	height: 5px;
+
+	background-color: #87cefb;
+}
+
+.JavaScript-name {
+	color: #d0ebed;
+}
+
+.JavaScript-description {
+	font-size: 27px;
+}
+
+.JavaScript-description span {
+	color: #d0ebed;
+}
+
+/* header end */
+
+/* main */
+
+.blocks {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    height: 735px;
+
+	column-gap: 20px;
+}
+
+.block {
+/*	width: 320px;*/
+	width: 32%;
+
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+
+	background-color: #86d1ff;
+}
+
+.block__header {
+	padding: 10px;
+	font-weight: 700;
+}
+
+.block__row {
+	padding: 10px;
+	background-color: #ecf7fa;
+}
+
+.block__row:nth-child(2n+1) {
+	background-color: #fff;
+}
+
+.block__row_left {
+	display: inline-block;
+    width: 28%;
+    vertical-align: top;
+    margin-right: 10px
+}
+
+.block__row_right {
+	display: inline-block;
+	width: 65%;
+}
+
+/* main end */
+
+/* footer */
+
+.footer__wrapper {
+	display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+	display: flex;
+	width: 32%;
+}
+
+.copyright_square {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 100px;
+    margin: 0 15px;
+
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Times New Roman';
+    background-color: #dbdbdb;
+    color: #fff;
+}
+
+.copyright,
+.published,
+.sponsored {
+	width: 32%;
+	padding-top: 15px;
+	border-top: 1px solid #dcdcdc;
+}
+/* footer end */
