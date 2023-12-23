@@ -2,16 +2,23 @@ body {
 	margin: 0;
 	box-sizing: border-box;
 	font-family: "Arial", sans-serif;
+
+	background: linear-gradient(
+		#ff0000,
+		#ffff00,
+		#23c7ff
+	);
+/*	overflow-x: hidden;*/
 }
 
 .container {
-	width: 1200px;
+	width: 1250px;
 	padding: 30px;
 	margin: 0 auto;
 }
 
 a {
-	color: #89d0fe;
+	color: #c9ff00;
 	text-decoration: none;
 }
 
@@ -40,7 +47,6 @@ p span {
     align-items: center;
     position: relative;
 
-	width: 200px;
 	padding: 20px;
 
 	color: #fff;
@@ -53,14 +59,14 @@ p span {
 	top: 0;
 	left: 0;
 
-	width: 240px;
+	width: 100%;
 	height: 5px;
 
 	background-color: #87cefb;
 }
 
 .JavaScript-name {
-	color: #d0ebed;
+	color: #09e51e;
 }
 
 .JavaScript-description {
@@ -68,7 +74,7 @@ p span {
 }
 
 .JavaScript-description span {
-	color: #d0ebed;
+	color: #003bff;
 }
 
 /* header end */
@@ -86,7 +92,6 @@ p span {
 }
 
 .block {
-/*	width: 320px;*/
 	width: 32%;
 
 	padding-bottom: 5px;
@@ -156,6 +161,6 @@ p span {
 .sponsored {
 	width: 32%;
 	padding-top: 15px;
-	border-top: 1px solid #dcdcdc;
+	border-top: 1px solid #000;
 }
 /* footer end */
